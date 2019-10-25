@@ -22,7 +22,7 @@ public class Open extends AppCompatActivity {
         setTitle("ファイルを開く");
         setContentView(R.layout.open);
         listView = (ListView)findViewById(R.id.lview);
-        File f = new File("/sdcard/homepage");
+        File f = new File("/storage/emulated/0/homepage");
         if(!f.exists())
         {
             f.mkdir();

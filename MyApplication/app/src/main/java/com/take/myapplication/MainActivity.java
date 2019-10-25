@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity {
     public void Open() {
         Toast.makeText(this, "開く", Toast.LENGTH_SHORT).show();
 
-        Intent i = new Intent(this, Open.class);
-        startActivityForResult(i, RESULT_SUBACTIVITY);
+        //Intent i = new Intent(this, Open.class);
+        //startActivityForResult(i, RESULT_SUBACTIVITY);
     }
 
     public void Save() {
